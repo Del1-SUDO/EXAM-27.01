@@ -20,15 +20,15 @@ class Program
         System.Console.WriteLine();
         library.FilterByAge(19, 20);
 
-        // System.Console.WriteLine();
-        // System.Console.Write("Название книги: ");
-        // string Title = Console.ReadLine();
-        // System.Console.Write("Автор: ");
-        // string Author = Console.ReadLine();
-        // System.Console.Write("Год выпуска: ");
-        // int Year = int.Parse(Console.ReadLine());
-        // Book add = new Book (Title, Author, Year, true);
-        // library.AddBook(add);
+        System.Console.WriteLine();
+        System.Console.Write("Название книги: ");
+        string Title = Console.ReadLine();
+        System.Console.Write("Автор: ");
+        string Author = Console.ReadLine();
+        System.Console.Write("Год выпуска: ");
+        int Year = int.Parse(Console.ReadLine());
+        Book add = new Book (Title, Author, Year, true);
+        library.AddBook(add);
 
         System.Console.WriteLine();
         library.FindBooksByYear(1999);
